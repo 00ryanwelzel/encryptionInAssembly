@@ -14,15 +14,17 @@ Implements several classical encryption and encoding schemes in MIPS Assembly
 
 Features:
 - Provides low-level insight into how data encoding and classical ciphers operate at the assembly level.
-- Captures real-time keystrokes from /dev/input/eventX (wherever the keyboard is)
+- Displays of algorithm design at the hardware/ISA level
 - Logs keystrokes to keylogger_output.txt
 
 
 Requirements:
-- Linux OS
-- GCC compiler
-- libudev headers
-
-
-Install dependencies with:
-- Bash: sudo apt install build-essential libudev-dev
+- MIPS simulator (MARS QtSPIM etc)
+- Familiarity with MIPS instruction set architecture
+  
+Install MARS simulator with:
+- Bash:
+- sudo apt install default-jdk -y
+- wget http://courses.missouristate.edu/KenVollmar/MARS/MARS_4_5.jar -O MARS.jar
+- cd /path/to/MARS.jar/
+- java -jar MARS.jar
