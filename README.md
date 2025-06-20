@@ -15,9 +15,9 @@ Features:
 Requirements:
 - MIPS simulator (MARS QtSPIM etc)
 - Familiarity with MIPS instruction set architecture
+
   
 Install MARS simulator with:
-- Bash:
 - sudo apt install default-jdk -y
 - wget http://courses.missouristate.edu/KenVollmar/MARS/MARS_4_5.jar -O MARS.jar
 - cd /path/to/MARS.jar/
